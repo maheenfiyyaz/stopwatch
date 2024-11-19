@@ -1,0 +1,65 @@
+/* General body styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #253529; /* Light blue for a soft background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Stopwatch container styling */
+.stopwatch-container {
+  background-color:#2B3230; /* White box for contrast */
+  border-radius: 12px;
+  box-shadow: 0px 8px 16px white; /* Subtle shadow */
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+/* Time display styling */
+#time-display {
+  font-size: 2.5rem; /* Large time font */
+  color: white; /* Dark gray text */
+  margin-bottom: 20px;
+}
+
+/* Buttons styling */
+.buttons button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+/* Specific button colors */
+#start-btn {
+  background-color: #28a745; /* Green */
+  color: #fff;
+}
+#start-btn:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+#pause-btn {
+  background-color: #007bff; /* Blue */
+  color: #fff;
+}
+#pause-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+#reset-btn {
+  background-color: #dc3545; /* Red */
+  color: #fff;
+}
+#reset-btn:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
